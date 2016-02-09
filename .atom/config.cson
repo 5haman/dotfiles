@@ -1,0 +1,138 @@
+"*":
+  "exception-reporting":
+    userId: "714b32a5-0011-bb3d-223a-c46fcb1c2412"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "native-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/shaman/Projects"
+    disabledPackages: [
+      "about"
+      "archive-view"
+      "background-tips"
+      "exception-reporting"
+      "image-view"
+      "language-c"
+      "language-clojure"
+      "language-csharp"
+      "language-go"
+      "language-java"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-toml"
+      "metrics"
+      "notifications"
+      "open-on-github"
+      "package-generator"
+      "release-notes"
+      "spell-check"
+      "styleguide"
+      "timecop"
+      "update-package-dependencies"
+      "welcome"
+      "status-bar"
+      "dev-live-reload"
+      "deprecation-cop"
+      "keybinding-resolver"
+      "language-coffee-script"
+      "language-gfm"
+      "language-git"
+      "markdown-preview"
+      "wrap-guide"
+      "autosave"
+    ]
+    excludeVcsIgnoredPaths: false
+    audioBeep: false
+  editor:
+    invisibles: {}
+    backUpBeforeSaving: true
+    lineHeight: 1.3
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabType: "soft"
+    softWrapHangingIndent: 80
+    showIndentGuide: true
+    fontFamily: "Menlo"
+    fontSize: 15
+  "atom-material-ui":
+    compactTreeView: true
+    depth: true
+    disableAnimations: true
+    fontSize: "Big"
+    panelContrast: true
+    showTabIcons: "Show on active tab"
+    slimScrollbar: true
+    useRoboto: true
+    useRobotoInUI: true
+  "git-diff":
+    showIconsInEditorGutter: true
+  "terminal-plus":
+    core:
+      scrollback: 5000
+    style:
+      theme: "homebrew"
+    toggles:
+      autoClose: true
+  minimap:
+    plugins:
+      "git-diff": true
+    scrollAnimation: true
+  "save-session":
+    dataSaveFolder: "/Users/shaman/.atom/packages/save-session/projects"
+  pigments:
+    groupPaletteColors: "by file"
+    sortPaletteColors: "by color"
+  "atom-beautify":
+    css_force_indentation: true
+    css_convert_quotes: "double"
+    css_align_assignments: true
+    analytics: false
+    html_indent_inner_html: true
+    html_max_preserve_newlines: 2
+    html_unformatted: [
+      "i"
+    ]
+    html_wrap_attributes: "force"
+    js_end_with_comma: true
+    js_break_chained_methods: true
+    js_preserve_newlines: false
+    js_space_after_anon_function: true
+    _loggerLevel: "error"
+    css_wrap_line_length: 1
+    js_indent_level: 1
+    js_max_preserve_newlines: 2
+    html_indent_size: 1
+    css_indent_size: 1
+  "tree-view": {}
+  "tree-view-breadcrumb":
+    displayProjectRoot: false
+    keepBreadcrumbVisible: true
+    pathStyle: true
+    scrollbarStyle: "thin"
+  "slim-dark-ui":
+    fontSize: 16
+  autosave:
+    enabled: true
+  "status-bar": {}
+  tabs: {}
+  "fuzzy-finder": {}
+  "autocomplete-plus": {}
+  "white-cursor":
+    enabled: "detect"
+".html.php.text":
+  editor:
+    tabLength: 2
+    softWrapHangingIndent: 2
+".basic.html.text":
+  editor:
+    softWrapHangingIndent: 80
+".plain.text":
+  editor:
+    softWrapHangingIndent: 80

@@ -1,0 +1,23 @@
+export PATH=/usr/local/bin:$PATH
+export PATH="/usr/local/sbin:$PATH"
+export PATH="~/.composer/vendor/bin:$PATH"
+export PATH="/usr/local/share/npm/bin:$PATH"
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+#eval "$(docker-machine env default)"
+
+#export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+#export PS1="[\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h: \[\033[33;1m\]\w\[\033[m\]]\$ "
+export PS1="\[\033[38;5;11m\][\[$(tput sgr0)\]\[\033[38;5;10m\]\u@\[$(tput sgr0)\]\[\033[38;5;6m\]\h\[$(tput sgr0)\]\[\033[38;5;10m\]:\[$(tput sgr0)\]\[\033[38;5;14m\]\W\[$(tput sgr0)\]\[\033[38;5;11m\]]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias composer="php /usr/local/bin/composer.phar"
+# some more ls aliases
+alias ls='ls -x -p -A -o -L -q -h'
+alias lt='ls -x -p -A -o -L -q -h -t'
+alias screen='screen -U -D -R'
+alias login-noc='ssh shaman@46.4.132.233'
+
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

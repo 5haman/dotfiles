@@ -1,0 +1,13 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[core]
+	editor = subl -n -w
+[user]
+	email = sergey@unisend.co
+	name = Sergey Shyman
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple

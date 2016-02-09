@@ -1,0 +1,30 @@
+hardstatus off
+#hardstatus alwayslastline 
+#hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+#hardstatus string '%{gk}[ %{G}%H %{g}][%= %{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}][%{Y}%l%{g}]%{=b C}[ %m/%d %c ]%{W}'
+
+caption always
+caption string "%{kw}[ %{kw}%-w%{wr}%n %t%t%{-}%+w ]       [ %{B} %d/%m %{B}%c ]       [ %{B}%l ]"
+#caption always           "%?%F%{= Kk}%:%{=u kR}%?  %h %-024=%{+b} %C%a %D %d %M %Y%{= db}"
+
+startup_message off 
+shelltitle "$ |bash"
+#termcapinfo xterm* 'hs:ts=\E]0;:fs=\007:ds=\E]0;\007'
+termcapinfo OP
+#defhstatus "screen ^E (^Et) | $USER@^EH"
+#autodetach on
+#altscreen on
+
+shell -$SHELL
+screen -t | htop
+screen -t | bash
+screen -t | bash
+screen -t | bash
+screen -t | bash
+screen -t | mc
+
+defscrollback 2048
+
+escape ^za # Ctrl-z instead of Ctrl-a
+bindkey "^[Od" prev  # ctrl-left
+bindkey "^[Oc" next  # ctrl-right
